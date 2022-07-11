@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+body{
+    background-color:blueviolet;
+        width: 100%;
+        height: 100vh;
+        font-family: Verdana;
+        
+}
+
+.idioma select{
+    position: relative;
+    width: 6%;
+    height: 35px;
+    margin-top: 4px;
+    left: 2px;
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    outline:none;
+}
+
+form{
+position:relative;
+margin-top: 250px;
+min-width: 280px;
+max-width: 25%;
+width: 25%;
+top: 30%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 15px;
+box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0,3);
+background-color: white;
+border-radius: 20px;
+color: rgb(0, 0, 0);
+margin-bottom: 40px;
+
+
+}
+
+img{
+    left: 25%;
+   position: relative;
+    width: 120px;
+    height: 120px;
+    padding-bottom: none;
+}
+
+h3{
+    font-size: 25px;
+    left: 20%;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:darkmagenta
+
+}
+
+select{
+    position:unset;
+    width: 20%;
+    height: 25px;
+    top: 25%;
+    
+}
+input{
+    top:15px;
+    padding: 5px 30px;
+    width: 100%;
+    height: 33px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-width: 1px;
+    outline-color: blueviolet;
+    outline-width: 1px;
+}
+
+.verificacion input{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 80%;
+    outline: none;
+    padding: 0px 30px;
+}
+
+.check input{
+width: auto;
+height: auto;
+color:blueviolet;
+margin-bottom: 0%;
+top: 10px;
+}
+
+.check{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.check a{
+    color:blueviolet;
+}
+
+.tapon input{
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.is a{
+    position: relative;
+    content: "*";
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blueviolet;
+}
+
+i{
+    position: relative;
+    left: 11px;
+    top: 40px;
+    color:rgb(112, 12, 112)
+
+}
+
